@@ -1,0 +1,43 @@
+// Desafio de Xadrez - Nível Novato
+// Autor: Beatriz Cardoso Cunha
+// Objetivo: Simular movimentações simples de peças de xadrez usando estruturas de repetição
+// Testado online em Programiz: 
+
+#include <stdio.h>
+
+int main() {
+    // Constantes para número de casas
+    const int casas_bispo = 5;
+    const int casas_torre = 5;
+    const int casas_rainha = 8;
+
+    // -------------------------------
+    // MOVIMENTAÇÃO DO BISPO (diagonal superior direita)
+    // -------------------------------
+    printf("\nMovimentação do Bispo (diagonal superior direita):\n");
+    for (int i = 0; i < casas_bispo; i++) {
+        printf("Cima + Direita\n");
+    }
+
+    // -------------------------------
+    // MOVIMENTAÇÃO DA TORRE (direita)
+    // -------------------------------
+    printf("\nMovimentação da Torre (direita):\n");
+    int j = 0;
+    while (j < casas_torre) {
+        printf("Direita\n");
+        j++;
+    }
+
+    // -------------------------------
+    // MOVIMENTAÇÃO DA RAINHA (esquerda)
+    // -------------------------------
+    printf("\nMovimentação da Rainha (esquerda):\n");
+    int k = 0;
+    do {
+        printf("Esquerda\n");
+        k++;
+    } while (k < casas_rainha);
+
+    return 0;
+}
