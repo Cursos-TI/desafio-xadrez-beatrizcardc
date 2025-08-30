@@ -76,6 +76,9 @@ Para o desafio final, as peças que utilizam loops simples terão seus códigos 
 **Cavalo**: 1 vez em L para cima à direita
 Obs: É obrigatório o uso de loops aninhados na movimentação do bispo e funções recursivas.
 
+saída: <img width="1932" height="1262" alt="image" src="https://github.com/user-attachments/assets/d22ae4d0-67f0-433d-89a2-21f8b4b0cad0" />
+
+
 Ao concluir este desafio, você terá um conhecimento mais profundo de estruturas complexas e elaboradas, amplamente utilizadas no mercado de trabalho. Boa sorte e boa programação!
 
 Equipe de Ensino - MateCheck
