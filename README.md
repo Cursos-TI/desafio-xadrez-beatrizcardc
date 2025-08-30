@@ -62,6 +62,9 @@ Agora que já conseguimos mover as peças mais simples usando loops, os desenvol
 Mover o cavalo em L utilizando loops aninhados.
 Obs: É obrigatório o uso de loops aninhados.
 
+
+saída: <img width="1892" height="973" alt="image" src="https://github.com/user-attachments/assets/fa79054e-fae8-456e-b574-c021e9e1908e" />
+
 ### 🥇 Nível Mestre
 Para o desafio final, as peças que utilizam loops simples terão seus códigos trocados por **funções recursivas**, e a movimentação do cavalo utilizará loops com variáveis múltiplas e/ou condições múltiplas, permitindo o uso de continue e break.
 
