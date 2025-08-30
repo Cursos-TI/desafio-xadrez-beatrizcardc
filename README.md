@@ -51,6 +51,9 @@ printf("Baixo\n");
 printf("Esquerda\n");
 printf("Direita\n");
 
+saída: <img width="1812" height="1307" alt="image" src="https://github.com/user-attachments/assets/5172eab6-6556-4569-aa56-9173642085d8" />
+
+
 ### 🏅 Nível Aventureiro
 Agora que já conseguimos mover as peças mais simples usando loops, os desenvolvedores pediram para elaborar os loops de outra forma. Para o desafio, moveremos o cavalo, que possui sua movimentação em L. O cavalo deve se movimentar para baixo e para a esquerda, usando pelo menos duas estruturas de repetição: uma deve ser for e a outra pode ser while ou do-while.
 
