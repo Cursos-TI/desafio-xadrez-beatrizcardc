@@ -1,0 +1,62 @@
+// Desafio de Xadrez - Nível Mestre
+// Autor: Beatriz Cardoso Cunha
+// Objetivo: Simular movimentações com funções recursivas e loops avançados (cavalo com múltiplas condições)
+
+#include <stdio.h>
+
+// ------------------------------------------
+// Função recursiva para mover o Bispo (5x Cima + Direita)
+void moverBispo(int passos) {
+    if (passos == 0) return;
+    printf("Cima + Direita\n");
+    moverBispo(passos - 1);
+}
+
+// Função recursiva para mover a Torre (5x Direita)
+void moverTorre(int passos) {
+    if (passos == 0) return;
+    printf("Direita\n");
+    moverTorre(passos - 1);
+}
+
+// Função recursiva para mover a Rainha (8x Esquerda)
+void moverRainha(int passos) {
+    if (passos == 0) return;
+    printf("Esquerda\n");
+    moverRainha(passos - 1);
+}
+
+int main() {
+    // ------------------------------------------
+    // BISPO
+    printf("\nMovimentação do Bispo (recursiva):\n");
+    moverBispo(5);
+
+    // TORRE
+    printf("\nMovimentação da Torre (recursiva):\n");
+    moverTorre(5);
+
+    // RAINHA
+    printf("\nMovimentação da Rainha (recursiva):\n");
+    moverRainha(8);
+
+    // ------------------------------------------
+    // CAVALO (1 vez em L - Cima 2x e Direita 1x, com continue e break)
+    printf("\nMovimentação do Cavalo (em L - Cima + Direita):\n");
+
+    int i, j;
+    for (i = 0; i < 3; i++) {
+        if (i == 2) break; // interrompe antes do terceiro passo
+        printf("Cima\n");
+    }
+
+    for (j = 0; j < 2; j++) {
+        if (j == 0) {
+            j++;
+            continue; // pula o primeiro loop
+        }
+        printf("Direita\n");
+    }
+
+    return 0;
+}
