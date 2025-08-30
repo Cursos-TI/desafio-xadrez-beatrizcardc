@@ -1,0 +1,26 @@
+// Desafio de Xadrez - Nível Aventureiro
+// Autor: Beatriz Cardoso Cunha
+// Objetivo: Simular movimentação do Cavalo (em L) usando loops aninhados (for + while)
+
+#include <stdio.h>
+
+int main() {
+    // O cavalo se move em L: 2 casas em uma direção + 1 perpendicular
+    // Neste desafio, moveremos para "Baixo 2x + Esquerda 1x"
+
+    const int movimentos_L = 2; // representa o número de passos para baixo
+
+    printf("\nMovimentação do Cavalo (em L - Baixo + Esquerda):\n");
+
+    for (int i = 0; i < movimentos_L; i++) {
+        printf("Baixo\n");
+    }
+
+    int j = 0;
+    while (j < 1) {
+        printf("Esquerda\n");
+        j++;
+    }
+
+    return 0;
+}
